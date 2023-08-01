@@ -1,0 +1,56 @@
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    margin-top: 38px;
+}
+
+.container input,
+button {
+    padding: 14px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    margin: 11px;
+
+}
+
+input {
+    border: solid;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+::placeholder {
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+.button:hover {
+    background-color: #33ee81;
+}
+
+#mensagemResultado {
+    font-size: 22px;
+    border: none;
+    margin: 16px;
+    padding: 16px;
+
+}
